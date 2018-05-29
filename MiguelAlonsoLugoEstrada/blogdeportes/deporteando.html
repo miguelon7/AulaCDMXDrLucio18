@@ -2,10 +2,10 @@
 <html>
 <head>
     <style>
-    .titulo{
+    .titulo {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bolder;
-        color: aliceblue;
+        color: whitesmoke;
         font-size: 80px;
         font-style: oblique;
         text-align: center;
@@ -19,7 +19,7 @@
         
     }
 
-    .registro{
+    .registro {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bolder;
         color:aliceblue;
@@ -27,19 +27,52 @@
         position: relative;
         top: -100px;
         left: 1780px;
+        text-decoration: none;
+        
     }
+    
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+
+    li {
+    float: left;
+    background-color: aliceblue;
+}
+
+    li a {
+    display: block;
+    color: crimson;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+    li a:hover {
+    background-color: crimson;
+    color: whitesmoke;
+}
     </style>
 </head>
 <body>
     <header>         
         <h1 class="titulo">DEPORTEANDO</h1>
-        <p class= "registro"><a href="Formulario.js">Regístrate aquí</a></p>
+        <a class="registro" href="Formulario.js">Regístrate aquí</a>
     </header>
     <nav>
-        <a href="url">Noticias</a>
-        <a href="url">Artículos</a>
-        <a href="url">Contacto</a>
-        <a href="url">Colabora</a>
+        <ul>
+            <li><a href="url">Noticias</a></li>
+            <li><a href="url">Artículos</a></li>
+            <li><a href="url">Contacto</a></li>
+            <li><a href="url">Colabora</a></li>
+        </ul>
     </nav>
     <section>
         <article>
